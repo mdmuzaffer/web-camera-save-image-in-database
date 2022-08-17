@@ -80,10 +80,11 @@ Here is the code
     
 </div>
   
-<!-- Configure a few settings and attach camera -->
     
     
-<script language="JavaScript">
+    
+<script>
+    
     
     Webcam.set({
         width: 490,
@@ -104,9 +105,7 @@ Here is the code
         });
     }
     
+    
 </script>
     
  
-</body>
-    
-</html>
