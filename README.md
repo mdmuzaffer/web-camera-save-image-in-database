@@ -67,14 +67,22 @@ Here is the code
 
 
             <div class="col-md-12 text-center">
+                
                 <br/>
+                
                 <button class="btn btn-success">Submit</button>
+                
             </div>
+            
         </div>
+        
     </form>
+    
 </div>
   
 <!-- Configure a few settings and attach camera -->
+    
+    
 <script language="JavaScript">
     
     Webcam.set({
@@ -87,9 +95,11 @@ Here is the code
     Webcam.attach('#my_camera');
   
     function take_snapshot() {
+    
         Webcam.snap( function(data_uri) {
 
             $(".image-tag").val(data_uri);
+    
             document.getElementById('results').innerHTML = '<img src="'+data_uri+'"/>';
         });
     }
